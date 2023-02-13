@@ -14,7 +14,7 @@ body {
 }
 
 .foto   {
-    height: 24rem;
+    height: 20rem;
     width: auto;
 }
 
@@ -123,7 +123,7 @@ header a:hover {
 }
 
 #Habilidades .container {
-    
+    padding: 50px;
 }
 
 .leng {
@@ -139,6 +139,10 @@ section div div {
 #MisProyectos{
     background-color: rgb(245, 245, 245);
     padding: 200px;
+}
+
+#MisProyectos .container {
+    margin: 0;
 }
 
 form {
@@ -178,3 +182,24 @@ footer {
     background: linear-gradient(to bottom,  blueviolet 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
+
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    header .container {
+        flex-direction: row;
+        justify-content: right;
+        margin-right: 0;
+    }
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        justify-content: right;
+    }
+}
+
+    #hero {
+        display: row;
+    }
