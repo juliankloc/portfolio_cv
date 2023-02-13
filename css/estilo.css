@@ -8,40 +8,137 @@ html {
     scroll-behavior: smooth;
 }
 
-.foto {
-
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-.boxI {
-    margin: 60px;
-    padding: 60px;
+.foto   {
+    height: 24rem;
+    width: auto;
 }
 
-div a {
-    display:inline-block;
-    padding: .5rem;
-    margin: .5rem;
-    text-decoration: none;
-    width: 15rem;
+h1 { 
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin: 30px;
+    padding: 30px:
+}
+
+h3 {
+    font-size: 2rem;
     text-align: center;
-    border: .5rem solid #0f0f0fcc;
-    border-radius: 20rem;
-    background-color: #fff;
 }
 
-.boxIi {
-    margin: 60px;
-    padding: 60px;
+p {
+    font-size: 1.25rem;
 }
 
-.boxIii {
-    margin: 60px;
-    padding: 60px;
+.boton {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.65);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.65);
+    color: white;
+    background-color: blueviolet;
 }
 
-.boxIv{ 
-    margin: 60px;
-    padding: 60px;
+.boton:hover{
+    background-color: rgb(101,33,165);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header p {
+    color: blueviolet;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+}
+
+#SobreMi {
+    background-color: rgb(245, 245, 245);
+}
+
+#SobreMi .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Habilidades{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#Habilidades .container {
+    
+}
+
+.leng {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+section div div {
+    justify-content: space-evenly;
+}
+
+#MisProyectos{
+    background-color: rgb(245, 245, 245);
+    padding: 200px;
 }
 
 form {
@@ -49,43 +146,6 @@ form {
     padding: 60px;
     display: flexbox;
     justify-content: center;
-}
-
-h1 {
-    margin: 40px;
-    padding: 40px;
-    text-align: center;
-}
-
-.hab {
-    height: 100px;
-    text-align: center;
-}
-
-.bot {
-    text-align: center;
-}
-
-.bot a {
-    display:inline-block;
-    padding: .5rem;
-    margin: .5rem;
-    text-decoration: none;
-    width: 15rem;
-    text-align: center;
-    border: .5rem solid #0f0f0fcc;
-    border-radius: 20rem;
-    background-color: #fff;
-}
-
-.leng {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-h2 {
-    margin: 30px;
-    padding: 30px;
 }
 
 ul li {
@@ -110,23 +170,11 @@ li a img {
     background-color: #fff;
 }
 
-.botones2 {
-        display:inline-block;
-    padding: .5rem;
-    margin: .5rem;
-    text-decoration: none;
-    width: 15rem;
-    text-align: center;
-    border: .5rem solid #0f0f0fcc;
-    border-radius: 20rem;
-    background-color: #fff;
-}
-
 footer {
     text-align: right;
     justify-content:baseline;
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(top,  blueviolet 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  blueviolet 0%,rgba(0, 0, 0, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  blueviolet 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
