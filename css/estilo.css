@@ -8,9 +8,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.foto {
+
+}
+
 .boxI {
     margin: 60px;
     padding: 60px;
+}
+
+div a {
+    display:inline-block;
+    padding: .5rem;
+    margin: .5rem;
+    text-decoration: none;
+    width: 15rem;
+    text-align: center;
+    border: .5rem solid #0f0f0fcc;
+    border-radius: 20rem;
+    background-color: #fff;
 }
 
 .boxIi {
@@ -41,25 +57,25 @@ h1 {
     text-align: center;
 }
 
-.foto {
-    display: flex;
-    justify-content: right;
-    margin: 20px;
-    padding: 20px;
-    border: 12px;
-    border-radius: 50px;
-    height: 450px;
-}
-
 .hab {
     height: 100px;
     text-align: center;
 }
 
 .bot {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
+}
+
+.bot a {
+    display:inline-block;
+    padding: .5rem;
+    margin: .5rem;
     text-decoration: none;
+    width: 15rem;
+    text-align: center;
+    border: .5rem solid #0f0f0fcc;
+    border-radius: 20rem;
+    background-color: #fff;
 }
 
 .leng {
@@ -82,18 +98,35 @@ li a img {
     height: 35px;
 }
 
+#parrafo {
+    display: grid;
+    grid-auto-flow: dense ;
+    padding: 2rem;
+    margin: 2rem;
+    text-decoration: none;
+    text-align: center;
+    border: 0.5rem solid #0f0f0fcc;
+    border-radius: 2.5rem;
+    background-color: #fff;
+}
+
+.botones2 {
+        display:inline-block;
+    padding: .5rem;
+    margin: .5rem;
+    text-decoration: none;
+    width: 15rem;
+    text-align: center;
+    border: .5rem solid #0f0f0fcc;
+    border-radius: 20rem;
+    background-color: #fff;
+}
+
 footer {
     text-align: right;
     justify-content:baseline;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-}
-
-@media screen and (min-width: 576px) {
-    body {
-        justify-content: center;
-    }
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
