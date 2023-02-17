@@ -84,7 +84,7 @@ header a:hover {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -96,13 +96,13 @@ header a:hover {
 }
 #SobreMi .container {
     text-align: center;
-    padding: 200px 12px;
+    padding: 100px 12px;
 }
 #parrafo {
     display: grid;
     grid-auto-flow: dense ;
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
     text-align: center;
     border: 0.5rem solid #0f0f0fcc;
@@ -129,11 +129,14 @@ header a:hover {
 
 #MisProyectos{
     background-color: rgb(245, 245, 245);
-    padding: 100px;
+    padding: 80px;
 }
 #MisProyectos .container{
     display: flex;
     justify-content: center;
+}
+#MisProyectos .container .card {
+    margin: 10px;
 }
 
 footer {
@@ -157,8 +160,8 @@ form {
     font-weight: bold;
     padding: 3px 25px;
     border-radius: 10px;
-    border: 1px solid rgba(0,0,0,0.65);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.65);
+    border: 1px solid rgba(100, 100, 100, 0.65);
+    box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.65);
     color: white;
     background-color: blueviolet;
     margin: 10px;
