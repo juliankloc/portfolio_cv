@@ -1,3 +1,5 @@
+const botonFormulario = document.getElementById('botonFormulario')
+
 const validar = (e) => {
     e.preventDefault();
     const nombreFormulario = document.getElementById('nombreFormulario');
