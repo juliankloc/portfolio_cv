@@ -14,7 +14,7 @@ body {
 }
 
 .foto   {
-    height: 20rem;
+    height: 18rem;
     width: auto;
 }
 
@@ -140,21 +140,6 @@ header a:hover {
     justify-content: center;
 }
 
-form {
-    margin: 10px;
-    padding: 10px;
-}
-
-ul li {
-    list-style: none;
-    display: inline;
-}
-
-li a img {
-    width: 35px;
-    height: 35px;
-}
-
 #parrafo {
     display: grid;
     grid-auto-flow: dense ;
@@ -175,7 +160,22 @@ footer {
     background: linear-gradient(to bottom,  blueviolet 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
-
+footer ul {
+    margin: 5px;
+    padding: 5px;
+}
+form {
+    margin: 10px;
+    padding: 10px;
+}
+ul li {
+    list-style: none;
+    display: inline;
+}
+li a img {
+    width: 35px;
+    height: 35px;
+}
 
 @media (min-width: 720px) {
     header {
