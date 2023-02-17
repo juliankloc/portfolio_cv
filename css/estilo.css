@@ -58,7 +58,7 @@ p {
 
 .container {
     max-width: 1400px;
-    margin: auto;
+    margin: 0;
 }
 
 header{
@@ -109,7 +109,6 @@ header a:hover {
 #SobreMi {
     background-color: rgb(245, 245, 245);
 }
-
 #SobreMi .container {
     text-align: center;
     padding: 200px 12px;
@@ -121,35 +120,29 @@ header a:hover {
     text-align: center;
     padding: 25px;
 }
-
 #Habilidades .container {
     padding: 50px;
 }
-
 .leng {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content:space-evenly;
 }
-
-section div div {
-    justify-content: space-evenly;
+.leng img {
+    height: 60px;
 }
 
 #MisProyectos{
     background-color: rgb(245, 245, 245);
-    padding: 200px;
+    padding: 100px;
 }
-
-#MisProyectos .container {
-    margin: 0;
+#MisProyectos .container{
+    display: flex;
+    justify-content: center;
 }
 
 form {
-    margin: 60px;
-    padding: 60px;
-    display: flexbox;
-    justify-content: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 ul li {
@@ -182,6 +175,7 @@ footer {
     background: linear-gradient(to bottom,  blueviolet 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
+
 
 @media (min-width: 720px) {
     header {
