@@ -48,6 +48,7 @@ p {
 
 header{
     background-color: rgb(245, 245, 245);
+    z-index: 999;
 }
 
 header .container{
@@ -137,6 +138,9 @@ header a:hover {
 }
 #MisProyectos .container .card {
     margin: 10px;
+}
+#MisProyectos .row {
+    z-index: 0;
 }
 
 footer {

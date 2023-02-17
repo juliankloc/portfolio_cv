@@ -102,20 +102,22 @@
     </main>
     <footer>
         <section id="Contacto">
-            <div class="container">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Contactame</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="email@ejemplo.com">
+            <div class="container overflow-hidden">
+                <div class="row mt-2">
+                    <div class="col-lg-5 offset-lg-1">
+                        <form id="formulario" class="mb-3" action="" method="post">
+                            <label for="nombreFormulario" class="form-label textoEstandar">Tu Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombreFormulario"
+                                placeholder="Nombre">
+                            <label for="emailFormulario" class="form-label textoEstandar">Tu email</label>
+                            <input type="email" class="form-control" name="email" id="emailFormulario"
+                                placeholder="email@email.com">
+                            <label for="mensajeFormulario" name="mensaje" class="form-label textoEstandar">Tu mensaje</label>
+                            <textarea class="form-control" id="mensajeFormulario" placeholder="Mensaje"
+                                rows="3"></textarea>
+                            <input id="botonFormulario" type="submit" value="Enviar" class="boton" />
+                        </form>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        <input class="boton" type="submit" value="Enviar">
-                    </div>
-                </form>
-            </div>
         </section>
         <ul>
             <li>
